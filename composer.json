@@ -1,0 +1,21 @@
+{
+    "name": "elena/tasty-api",
+    "authors": [
+        {
+            "name": "elena",
+            "email": "elenatrehub1@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.4",
+        "lcobucci/jwt": "^3.3",
+        "polarising/bcrypt": "^1.0",
+        "ext-json": "*",
+        "ext-apache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "Application/"
+        }
+    }
+}
